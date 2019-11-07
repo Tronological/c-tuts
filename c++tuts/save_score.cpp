@@ -1,6 +1,4 @@
 #include "Header.h"
-#include <iostream>
-#include <fstream>
 
 void save_score(int count) {
 	std::ifstream input("best_score.txt");

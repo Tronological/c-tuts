@@ -1,6 +1,4 @@
 #include "Header.h"
-#include <iostream>
-#include <vector>
 
 void play_game() {
 	std::vector<int> guesses;

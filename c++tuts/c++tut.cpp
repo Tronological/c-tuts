@@ -1,6 +1,4 @@
 #include "Header.h"
-#include <iostream>
-#include <ctime>
 
 int main() 
 {
