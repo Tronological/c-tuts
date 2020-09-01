@@ -6,7 +6,7 @@ int main()
 	int choice;
 
 	do {
-		std::cout << "0. Quit" << std::endl << "1. Play Game\n";
+		std::cout << "0. Quit" << std::endl << "1. Play Game\n" << "2. Roll Dice\n";
 		std::cin >> choice;
 
 		switch (choice) {
