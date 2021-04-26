@@ -27,6 +27,9 @@
     <ClCompile Include="game_loop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="roll_dice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">

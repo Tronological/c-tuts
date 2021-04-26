@@ -3,9 +3,8 @@
 void play_game() {
 	std::vector<int> guesses;
 	int count = 0;
-	int random = rand() % 251;
+	int random = rand() % 1001;
 
-	std::cout << random << std::endl;
 	std::cout << "Guess a number: ";
 
 	while (true) {
@@ -20,10 +19,10 @@ void play_game() {
 			break;
 		}
 		else if (guess < random) {
-			std::cout << "Too low\n";
+			std::cout << "Too low.\n";
 		}
 		else {
-			std::cout << "Too high\n";
+			std::cout << "Too high.\n";
 		}
 	}
 	save_score(count);

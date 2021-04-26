@@ -16,6 +16,9 @@ int main()
 			case 1:
 				play_game();
 				break;
+			case 2:
+				roll_dice();
+				break;
 		}
 	} while (choice != 0);
 }
